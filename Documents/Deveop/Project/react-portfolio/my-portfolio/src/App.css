@@ -1,0 +1,48 @@
+body {
+  font-family: "Inria Serif", serif;
+  font-size: 1.3rem;
+}
+.nav-font {
+  font-family: "Inknut Antiqua", serif;
+}
+.hero {
+  min-height: 60vh;
+  font-weight: 600;
+  background: linear-gradient(rgb(35, 216, 66), rgba(87, 129, 9, 0.767));
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+.title span {
+  padding: 0.5rem 2rem;
+  border-bottom: 0.4rem solid green;
+}
+.icons i {
+  font-size: 5rem;
+}
+.icons > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.projects {
+  background: rgb(123, 202, 69);
+}
+.projects .row {
+  --bs-gutter-x: 0;
+}
+.c-p {
+  background: violet;
+}
+.projects a {
+  color: #ffff;
+  text-decoration: none;
+}
+.about {
+  background: whitesmoke;
+  border-radius: 31px;
+}
